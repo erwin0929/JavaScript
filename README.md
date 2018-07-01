@@ -1,97 +1,5 @@
-# 这里是我关于前端的历史记录
-> 由于该网站专为coder打造,如不懂具体浏览细节可以问您身边的技术人员或者联系我的QQ。
-
-
-## Introduction
-```
-export const Me = {
-    // 姓名
-    name: 'SQQ',
-    // 性别
-    gender: 'male',
-    // 邮箱
-    email: '761981721@qq.com',
-    // 年龄
-    age: () => true + true + '' + alert.name.length,
-    // 专业
-    major: '网页设计',
-    // 学校
-    Education: '上海邦德技术学院',
-    // 地址
-    adress: 'ShangHai',
-    // github网址
-    github: 'https://github.com/erwin0929',
-    // 期望职位
-    wantWork: 'Web Engineer',
-    // 期望薪资
-    salary: () => +true + '5k',
-    // 爱好
-    hobby: 'code',
-    // 自评
-    identity: 'coder',
-    // 前端相关工作经验
-    workTime: '3年'
-}
-```
-
-## Skill List (数据展示)
-* 开发项目达20个
-* 相关工作时间长达1200天
-* 曾任职于15人的开发团队
-* 业余时间学习前端相关内容多达6/24小时
-* 浏览javascript书籍4本
-    1. <javascript权威指南>
-    2. <JavaScript高级程序设计（第3版）非扫描版>
-    3. <高性能javascript>
-    4. <你所不知道的JS>
-* 常阅览的技术网站多达10个
-    1. 知乎前端板块
-    2. segmentfault
-    3. 牛客网(js题库网)
-    4. 阮一峰es6教程
-    5. 掘金
-    6. github
-    7. w3c
-    8. 简书
-    9. CSDN
-    10. MDN
-* 了解前端视频教程 4个
-    1. 慕课网
-    2. 智能社
-    3. 妙味课堂
-    4. 李炎辉Javascript
-* 使用过的编辑器4种
-    1. webstorm
-    2. vscode
-    3. sublime
-    4. Hbuiler
-* 代码托管同步工具3种
-    1. github
-    2. smartSvn
-    3. torroisesvn
-* 掌握前端相关技术15种
-    1. HTML
-    2. CSS
-    3. CSS3
-    4. Javascript
-    5. Jquery
-    6. Vue全家桶
-    7. Sass
-    8. Less
-    9. ElementUI
-    10. Bootstrap
-    11. Photoshop
-    12. Webpack
-    13. Es6
-    14. MintUI
-    15. Flex
-* 曾在100人微信群中,为新coder讲述vue的使用(手动打字讲述,有截图证明)
-* 常在前端QQ群中为群员解决前端相关问题。
-
-
-如果上述内容没有引起您的兴趣?  
-OK,请看我的技能简述。  
-由于HTML+CSS是基础能力且过于简单,最后会一笔带过,这里我们先从Javascript的难点开始说起,简单的如流程控制语句,循环操作变量声明就不再提及了,这里难点由浅入深,让你知道我对Javascript的理解。  
+# Javascript学习总结
+这里我们先从Javascript的难点开始说起,简单的如流程控制语句,循环操作变量声明就不再提及了,这里难点由浅入深,总结自己的学习情况。  
 
 ## Javascript (es5)
 
@@ -117,7 +25,7 @@ OK,请看我的技能简述。
 * Object('hello') 将字符串转换成对象类型
     1. 将转换成包装对象
 
-## 事件
+## 事件 (CSDN中得知)
 * 事件冒泡: 当多个div绑定了点击事件,且dom关系为父子关系,此时点击最内层的div会将事件由内向外传播到最外层。
 * 事件捕获: 场景如上,当点击最外层的div,会将事件自外而内传播到最里面的div。
 * 以上2中情况可通过事件对象里的方法来禁止
